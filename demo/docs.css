@@ -80,6 +80,31 @@ body{
     z-index: 99;
   }
 
+/* mini sidebar */
+.bs-docs-sidebar-mini{
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 10px;
+  height: 100%;
+  width: 26px;
+  background-color: #24ABEB;
+  z-index: 50;
+  -webkit-box-shadow: 10px 0 10px 0 rgba(0,0,0,0.1);
+  box-shadow: 10px 0 10px 0 rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+.bs-docs-sidebar-mini .nav-toggle{
+    display: block;
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    width: 16px;
+    height: 85px;
+    background: url('./toggle.png');
+    z-index: 99;
+  }
+
 /* content */
 .bs-docs-content{
   padding-top: 50px;
