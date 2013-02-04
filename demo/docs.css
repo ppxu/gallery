@@ -1,10 +1,28 @@
 
+body{
+  font-family: "Microsoft Yahei";
+}
+
+/* color-line */
 .color-line{
   width: 100%;
   height: 10px;
-  background-color: #24ABEB;
   position: fixed;
   top: 0;
+  background-color: #24abeb;
+}
+.color-line .one, .color-line .two, .color-line .three{
+  height: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.color-line .one{
+  width: 110px;
+  background-color: #ff5500;
+}
+.color-line .two{
+  width: 170px;
+  background-color: #008f68;
 }
 
 .container-fluid{
@@ -21,7 +39,6 @@
     background-color: #24ABEB;
     height: 50px;
     font-weight: 600;
-    font-family: "Microsoft Yahei";
     color: #fff;
   }
   .bs-docs-sidebar .nav{
@@ -41,7 +58,6 @@
   .bs-docs-sidebar .nav li a{
     display: block;
     height: 45px;
-    font-family: "Microsoft Yahei";
     font-size: 18px;
     color: #fff;
     margin: 0;
@@ -64,7 +80,15 @@
     z-index: 99;
   }
 
+/* content */
+.bs-docs-content{
+  padding-top: 50px;
 
+}
+.bs-docs-content h1{
+  font-size: 48px;
+  font-weight: 600;
+}
 
 /* Responsive
 -------------------------------------------------- */
