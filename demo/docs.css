@@ -1,0 +1,118 @@
+
+.color-line{
+  width: 100%;
+  height: 10px;
+  background-color: #24ABEB;
+  position: fixed;
+  top: 0;
+}
+
+.container-fluid{
+    padding: 0;
+    padding-right: 60px;
+  }
+
+/* navbar */
+  .bs-docs-sidebar h1{
+    margin: 0;
+    padding: 20px 15px;
+    position: fixed;
+    top: 10px;
+    background-color: #24ABEB;
+    height: 50px;
+    font-weight: 600;
+    font-family: "Microsoft Yahei";
+    color: #fff;
+  }
+  .bs-docs-sidebar .nav{
+    margin-top: 100px;
+    background-color: #24ABEB;
+    height: 1680px;
+    padding: 0;
+  }
+  .bs-docs-sidebar .nav li{
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #1F8FC4;
+  }
+  .bs-docs-sidebar .nav li:last-child{
+    border: none;
+  }
+  .bs-docs-sidebar .nav li a{
+    display: block;
+    height: 45px;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    padding: 0 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .bs-docs-sidebar .nav li a:hover{
+    background-color: #1F8FC4;
+  }
+  .bs-docs-sidebar .nav-toggle{
+    display: block;
+    position: fixed;
+    top: 320px;
+    margin-left: 264px;
+    width: 16px;
+    height: 85px;
+    background: url('./toggle.png');
+    z-index: 99;
+  }
+
+
+
+/* Responsive
+-------------------------------------------------- */
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+  .bs-docs-sidebar h1{
+    width: 250px;
+  }
+  .bs-docs-sidenav {
+    width: 280px;
+  }
+}
+
+/* Desktop
+------------------------- */
+@media (min-width: 980px) and (max-width: 1199px) {
+  .bs-docs-sidebar h1{
+    width: 196px;
+  }
+  .bs-docs-sidenav {
+    width: 226px;
+  }
+  .bs-docs-sidebar .nav-toggle{
+    margin-left: 210px;
+  }
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+  .bs-docs-sidebar h1{
+    width: 136px;
+  }
+  .bs-docs-sidenav {
+    width: 166px;
+  }
+  .bs-docs-sidebar .nav-toggle{
+    margin-left: 150px;
+  }
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+  .container-fluid .bs-docs-sidebar{
+    display: none;
+  }
+}
+
