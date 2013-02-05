@@ -33,11 +33,13 @@ body{
 /* navbar */
   .bs-docs-sidebar h1{
     margin: 0;
-    padding: 20px 15px;
+    padding: 0;
+    text-indent: 20px;
     position: fixed;
     top: 10px;
     background-color: #24ABEB;
-    height: 50px;
+    height: 90px;
+    line-height: 90px;
     font-weight: 600;
     color: #fff;
   }
@@ -82,12 +84,11 @@ body{
 
 /* mini sidebar */
 .bs-docs-sidebar-mini{
-  display: none;
   position: fixed;
   left: 0;
   top: 10px;
   height: 100%;
-  width: 26px;
+  width: 0;
   background-color: #24ABEB;
   z-index: 50;
   -webkit-box-shadow: 10px 0 10px 0 rgba(0,0,0,0.1);
@@ -101,7 +102,7 @@ body{
     left: 10px;
     width: 16px;
     height: 85px;
-    background: url('./toggle.png');
+    background: url('./toggle.png') no-repeat -16px 0;
     z-index: 99;
   }
 
@@ -131,7 +132,7 @@ body{
 ------------------------- */
 @media (min-width: 1200px) {
   .bs-docs-sidebar h1{
-    width: 250px;
+    width: 280px;
   }
   .bs-docs-sidenav {
     width: 280px;
@@ -142,7 +143,7 @@ body{
 ------------------------- */
 @media (min-width: 980px) and (max-width: 1199px) {
   .bs-docs-sidebar h1{
-    width: 196px;
+    width: 226px;
   }
   .bs-docs-sidenav {
     width: 226px;
@@ -156,7 +157,7 @@ body{
 ------------------------- */
 @media (min-width: 768px) and (max-width: 979px) {
   .bs-docs-sidebar h1{
-    width: 136px;
+    width: 166px;
   }
   .bs-docs-sidenav {
     width: 166px;
