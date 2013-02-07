@@ -2,6 +2,14 @@
 function($) {
 
 	$(function() {
+		var h2_list = $('h2');
+		var nav_list = $('.bs-docs-sidenav');
+		for(var i = 0; i < h2_list.length; i++){
+			nav_list.append('<li><a href = "#' +
+				h2_list[i].id + '">' +
+				h2_list[i].innerHTML + '</a></li>');
+		}
+
 		var nav_width = $('.bs-docs-sidebar .bs-docs-sidenav').width();
 		var h1_width = $('.bs-docs-sidebar h1').width();
 		var toggle_left = $('.bs-docs-sidebar .nav-toggle').css('margin-left');
