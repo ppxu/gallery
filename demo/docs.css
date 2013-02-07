@@ -120,7 +120,8 @@ body{
     width: 100%;
 }*/
 .bs-docs-content{
-  margin-top: 50px;
+  margin-top: 55px;
+  color: #555;
 }
 .bs-docs-content h1{
   font-size: 48px;
@@ -133,6 +134,30 @@ body{
 .bs-docs-content h2{
   font-size: 24px;
   color: #317eac;
+  margin-bottom: 20px;
+}
+.bs-docs-content .alert{
+  margin: 20px 0;
+  padding: 10px 35px 10px 14px;
+  color: #817B58;
+  background-color: #EDEBE1;
+  border-color: #E0D9CB;
+}
+.bs-docs-content h3{
+  font-size: 18px;
+  color: #317eac;
+}
+.bs-docs-content h4{
+  font-size: 14px;
+  color: #317eac;
+}
+.bs-docs-content li{
+  line-height: 28px;
+}
+.bs-docs-content hr{
+  margin: 10px 0 20px;
+  border-bottom: none;
+  border-top: 1px solid #ccc;
 }
 
 /* Responsive
