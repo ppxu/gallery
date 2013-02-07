@@ -4,10 +4,12 @@ function($) {
 	$(function() {
 		var h2_list = $('h2');
 		var nav_list = $('.bs-docs-sidenav');
-		for(var i = 0; i < h2_list.length; i++){
+		for(var i = 0, len = h2_list.length; i < len; i++){
+			var cur_list = h2_list[i];
+			var list_id = cur_list.id ? cur_list.id : cur_list.id = 'area' + i;
 			nav_list.append('<li><a href = "#' +
-				h2_list[i].id + '">' +
-				h2_list[i].innerHTML + '</a></li>');
+				list_id + '">' +
+				cur_list.innerHTML + '</a></li>');
 		}
 
 		var nav_width = $('.bs-docs-sidebar .bs-docs-sidenav').width();

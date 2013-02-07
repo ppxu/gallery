@@ -28,7 +28,7 @@ body{
 /* container */
 .container-fluid{
   padding: 0;
-  padding-right: 60px;
+  padding-right: 70px;
 }
 
 /* navbar */
@@ -126,6 +126,7 @@ body{
 .bs-docs-content h1{
   font-size: 48px;
   font-weight: 600;
+  color: #333;
 }
 .bs-docs-content .title-hr{
   margin-top: 30px;
