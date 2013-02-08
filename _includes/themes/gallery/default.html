@@ -3,9 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Gallery - {{ page.title }}</title>
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
-    {% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -31,11 +29,13 @@
 <body data-spy="scroll" data-target=".bs-docs-sidebar">
     <div class="color-line"><i class="one"></i><i class="two"></i><i class="three"></i></div>
 
+    <!-- container begin -->
     <div class="container-fluid">
         {{ content }}
     </div>
-
-    <!-- /container -->{% include JB/analytics %}
+    <!-- container end -->
+    
+    {% include JB/analytics %}
     <script type="text/javascript" src="{{ ASSET_PATH }}/js/docs.js"></script>
 </body>
 </html>
