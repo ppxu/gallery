@@ -79,7 +79,7 @@ body{
   top: 320px;
   width: 16px;
   height: 85px;
-  background: url('./toggle.png');
+  background: url('../img/toggle.png');
   z-index: 99;
 }
 
@@ -103,7 +103,7 @@ body{
   left: 10px;
   width: 16px;
   height: 85px;
-  background: url('./toggle.png') no-repeat -16px 0;
+  background: url('../img/toggle.png') no-repeat -16px 0;
   z-index: 99;
 }
 
