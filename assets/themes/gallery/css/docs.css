@@ -1,6 +1,7 @@
 
 body{
   font-family: "Microsoft Yahei";
+  overflow-x: hidden;
 }
 
 /* color-line */
@@ -40,6 +41,7 @@ body{
   top: 10px;
   background-color: #24ABEB;
   height: 90px;
+  width: 280px;
   line-height: 90px;
   font-weight: 600;
   color: #fff;
@@ -48,6 +50,7 @@ body{
   margin-top: 100px;
   background-color: #24ABEB;
   height: 1680px;
+  width: 280px;
   padding: 0;
 }
 .bs-docs-sidebar .nav li{
@@ -79,6 +82,7 @@ body{
   top: 320px;
   width: 16px;
   height: 85px;
+  margin-left: 264px;
   background: url('../img/toggle.png');
   z-index: 99;
 }
@@ -124,7 +128,7 @@ body{
 }
 .bs-docs-content h1{
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 500;
   color: #333;
 }
 .bs-docs-content .title-hr{
@@ -167,15 +171,7 @@ body{
 /* Desktop large
 ------------------------- */
 @media (min-width: 1200px) {
-  .bs-docs-sidebar h1{
-    width: 280px;
-  }
-  .bs-docs-sidenav {
-    width: 280px;
-  }
-  .bs-docs-sidebar .nav-toggle{
-    margin-left: 264px;
-  }
+  
 }
 
 /* Desktop
@@ -184,7 +180,7 @@ body{
   .bs-docs-sidebar h1{
     width: 226px;
   }
-  .bs-docs-sidenav {
+  .bs-docs-sidebar .nav{
     width: 226px;
   }
   .bs-docs-sidebar .nav-toggle{
@@ -198,7 +194,7 @@ body{
   .bs-docs-sidebar h1{
     width: 166px;
   }
-  .bs-docs-sidenav {
+  .bs-docs-sidebar .nav{
     width: 166px;
   }
   .bs-docs-sidebar .nav-toggle{
