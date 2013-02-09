@@ -12,6 +12,7 @@ markdown: rdiscount
 #
 title : KISSY Gallery
 tagline: Site Tagline
+keywords : kissy, gallery
 author :
   name : Name Lastname
   email : blah@email.test
