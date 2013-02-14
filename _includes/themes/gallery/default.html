@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Gallery - {{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
     <meta name="keywords" content="{% if page.tags %}{% for tag in page.tags %}{{ tag }}, {% endfor %}{% endif %}{{ site.keywords }}" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/pygments/default.css">
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/docs.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/pygments/default.css" />
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/docs.css" />
     <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
 
 </head>
