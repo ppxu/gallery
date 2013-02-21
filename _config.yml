@@ -12,6 +12,7 @@ markdown: rdiscount
 #
 title : KISSY Gallery
 tagline: Site Tagline
+nav : 导航
 keywords : kissy, gallery
 author :
   name : Name Lastname
@@ -19,7 +20,6 @@ author :
   github : username
   twitter : username
   feedburner : feedname
-
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
